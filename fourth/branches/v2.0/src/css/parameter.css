@@ -1,0 +1,49 @@
+/* 参数及包装 */
+.pro-para-tbl{width:100%;margin-bottom:15px;border:1px solid #ddd;}
+.pro-para-tbl th{height:30px;background:#f0f0f0;text-align:left;vertical-align:middle;text-indent:5px;}
+.pro-para-tbl td{padding:3px 5px;border:1px solid #ddd;color:#666;}
+
+.pro-para-tbl .name{ width:176px;}
+.pro-para-tbl .name-inner { position:relative; z-index:10;}
+.pro-para-tbl .name span { vertical-align:middle;}
+.pro-para-help { display:inline-block; width:16px; height:16px; margin-left:5px; background:url(images/icons.png?v=2015121601) no-repeat -140px -290px; vertical-align:middle;}
+.pro-para-help:hover { background-position:-140px -310px;}
+.pro-para-tip { display:none; position: absolute; left: -6px; top: 28px; width: 590px; padding: 15px 25px; line-height: 1.8; background: #FFFAEA; border: 1px solid #ffdda7; color: #333; z-index:10;}
+.pro-para-tip i { position: absolute; left: 35px; top: -9px; width: 20px; height: 9px; background: url(images/icons.png?v=2015121601) no-repeat -160px -290px; overflow: hidden; }
+.pro-para-tip .close { position: absolute; right: 5px; top: 5px; color:#333; font:bold 14px/1.2 \5b8b\4f53; overflow: hidden;}
+.pro-para-tip .close:hover { text-decoration:none; color:#F60;}
+
+.pro-para-tbl .val{width:456px;border-right:0;line-height:24px;}
+.pro-para-tbl .err{padding-right:20px;border-left:0;text-align:right;}
+.root1200 .pro-para-tbl .err{padding-right:68px;}
+.pro-para-tbl .err a{display:none;color:#2272c8;}
+.pro-para-tbl .err a:hover{color:#f60;}
+.pro-para-tbl .hover a { display:inline;}
+
+.prods-show { position: relative; height: 150px; width: 100%; margin-bottom: 15px; border-bottom: 1px solid #dfdfdf; text-align: center;}
+.prods-show .list-wrapper{ position: relative; height: 151px; width: 98%; margin: 0 auto; overflow: hidden;}
+.prods-show .prods-param-list {display: inline-block; position: absolute; left: 0; height: 150px; width: 990em; background-color: #FFF; padding-left: 30px;}
+.prods-show .prods-param-list li { float: left; position: relative; width: 150px; height: 150px; margin-right: 30px;}
+.prods-show .prods-param-list li .liner{ display: none;} 
+.prods-show .prods-param-list .on .liner { display: inline-block; position: absolute; left: 0; bottom: -1px; width: 150px; font-size: 0; border-bottom: 1px solid #333; }
+.prods-show .prods-param-list li img { display: block; width: 120px; height: 120px; margin-left: 10px;}
+.prods-show .prods-param-list li .title {width: 150px; height: 14px; margin-top: 10px; font:normal 12px/1.2 'simsun'; color: #999; overflow: hidden;}
+.prods-show .prods-param-list li .title a {text-decoration: none; color: #999;}
+.prods-show .hover-liner {position: absolute; left: 30px; top:150px; width: 150px; height: 1px; font-size: 0; background-color: #333;}
+
+
+.prods-show a.btn-dir { position:absolute; top:24px; line-height:2; background:#FFF; color:#666; text-align:center; text-decoration:none; z-index:2; cursor:pointer; transition:all 0.2s linear 0s;}
+.prods-show a.btn-dir:hover span { display:inline; color:#666;}
+.prods-show .prev { left:-20px; width:26px; height:68px; border:solid 1px #EEE; border-left:none; }
+.prods-show .prev:hover { background-color:#E7E7E7; border-color:#DEDEDE;}
+.prods-show .next { right:-20px; width:26px; height:68px; border:solid 1px #EEE; border-right:none;}
+.prods-show .next:hover { background-color:#E7E7E7; border-color:#DEDEDE;}
+.prods-show .prev .arr { position:absolute; top:26px; left:6px; width:12px; height:20px; background:url(images/icons.png?v=2015121601) no-repeat -17px 0;}
+.prods-show .prev:hover .arr { background-position:-17px -24px;}
+.prods-show .next .arr { position:absolute; top:26px; right:6px; width:12px; height:20px; background:url(images/icons.png?v=2015121601) no-repeat -39px 0;}
+.prods-show .next:hover .arr { background-position:-39px -24px;}
+.prods-show .ctr-disabled,.prods-show .ctr-disabled:hover { border:solid 1px #EEE; background-color:#FFF; cursor: default;}
+.prods-show .screen-count { display:none; font-family:Arial;}
+
+
+.prods-show-rel { display:none;}

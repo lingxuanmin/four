@@ -1,0 +1,132 @@
+@charset "utf-8";
+.row{display: inline-block;*display:inline;*zoom:1;margin:10px 0 10px 25px;border: 1px solid #DDD;}
+.si-wrap{ padding:0 15px;}
+.si-wrap .si-head{height:20px; line-height:20px;}
+.si-wrap .si-head .more { float:right; color:#2272C8; font-weight:normal;}
+.si-main{position:relative;}
+.si-main .si-main-first{padding: 10px 0}
+.si-main .si-star{display:inline;float:left;width: 51px;height: 51px;background: url(images/si/rating-h.jpg) no-repeat;line-height: 51px;text-align: center;*zoom: 1}
+.si-main .si-website{margin-left: 90px;}
+.si-main ul li{padding:4px 0;color: #999;*zoom: 1;}
+.si-main ul li:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.si-main ul li .rating-val em{color: #F60}
+.si-main ul li .si-rating{}
+.si-main ul li .si-range{width: 65px;position: relative;overflow: hidden;white-space:nowrap;text-overflow: ellipsis;text-align: right}
+.si-main ul li .si-range-title { width:72px;}
+.si-main ul li .si-range .rating-val{color: #666; font-family:\5b8b\4f53;}
+.si-main .si-name { max-height:35px; color:#666; overflow:hidden; word-break:break-all;}
+/* 服务模块 */
+.si-main .si-service{width:167px;height:55px;margin:8px auto;background: url(images/si/service.jpg) no-repeat}
+/* 店铺详细信息 */
+.si-main .si-detail{margin:0 -15px;padding:8px 15px;background: #F6F6F6; overflow:hidden; *zoom:1;}
+.si-main .si-detail p .detail-name{ float:left; width: 40px;}
+.si-main .si-detail p .detail-val{ float:left; width:120px; margin-left:5px;}
+
+.si-main-oversea .si-detail p .detail-name{ width: 60px; letter-spacing:0 !important;}
+.si-main-oversea .si-detail p .detail-val{ width:100px;}
+
+/* 弹出的评分框 */
+.si-main .more-info{position:absolute;left:-145px;top:0;display:none;width: 135px;height:34px;padding:12px 0;border: 1px solid #DDD;background: #FFF}
+.si-main .more-info .info-row{padding: 0 10px;}
+.si-main .more-info .icon-arrow-right{position: absolute;right: -9px;top: 50%;width: 9px;height: 18px;margin-top: -9px;background: url(images/icons-24.png?v=2015101301) no-repeat -135px 0}
+.si-main .more-info .info-row .star-bg{display: inline-block;*display: inline;*zoom: 1;width: 73px;height: 13px;background: url(images/icons.png?v=2015082801) no-repeat -115px -455px}
+.si-main .more-info .info-row .star-val{display: block;width: 73px;height: 13px;background: url(images/icons.png?v=2015082801) no-repeat -115px -472px}
+
+.si-main-info { height:16px; margin-top:2px; line-height:16px; overflow:hidden;}
+.si-main-info .tag { float:left; width:16px; height:16px; margin-right:5px; background-image:url(images/icons.png?v=2015082801); background-repeat:no-repeat; _margin-right:0;}
+.si-main-info .tag-qiang { background-position:0 -290px;}
+.si-main-info .tag-tuan { background-position:-20px -290px;}
+.si-main-info .tag-cu { background-position:-40px -290px;}
+
+.si-icon{position:absolute;left:10px;top:50%;display: block;width: 12px;height: 12px;margin-top:-5px;background: url(images/icons.png?v=2015082801) no-repeat; overflow:hidden;}
+.icon-upper{background-position: -215px -15px;}
+.icon-lower{background-position: -215px -27px;}
+
+.store-more{ padding: 0;}
+.store-more .si-head{ padding: 0 15px;}
+.si-wrap .si-head i{ font-weight: normal;}
+.store-more ul li{ width: 168px; padding:0 15px; border-top: 1px solid #EEE; _margin-bottom:-3px; _width:167px;}
+.store-more ul .first{border-top: 0 none}
+.store-more ul .selected { background-color: #fff8f0;}
+.store-more ul .hover { background-color: #fff8f0;}
+.store-more ul li a { display:block; padding:10px 0; cursor:pointer;}
+.store-more ul li a:hover{ color:#333; text-decoration:none;}
+.store-more .si-head .more-black{ text-decoration: none; color: #333; cursor: default;}
+.si-wrap .trans-charge { color:#999}
+.si-wrap .trans-charge .price{color: #666; font-weight:normal;}
+/*.si-main ul .hover{background:#EDFAFF;}*/
+
+
+/* 辅助类 */
+.si-wrap .mt7{margin-top: 7px;}
+.si-wrap .si-fl{float: left}
+.si-wrap .si-fr{float: right}
+.si-wrap .price{color: #EF392B;}
+.si-wrap .price i{padding-right:3px;font-family: Arial;}
+.si-wrap .price em{font-family: Arial; font-weight:normal; text-decoration:none;}
+
+/* 更多推荐 */
+.si-rec-list { height:180px; overflow:hidden; *position:relative;}
+.si-rec-list li { position:relative; height:80px; padding:10px 0 0; overflow:hidden;}
+.si-rec-list li .image { position:relative; float:left; width:60px; height:60px; margin-right:10px; border:solid 1px #DDD;}
+.si-rec-list li .image img { display:block; width:60px; height:60px;}
+.si-rec-list li .image .label { position: absolute; right: -1px; bottom: -1px; height: 15px; padding: 0 2px; background: #F60; color: #FFF; font:normal 12px/15px \5FAE\8F6F\96C5\9ED1; white-space: nowrap; }
+.si-rec-list li .title { height:34px; margin-bottom:9px; overflow:hidden;}
+.si-rec-list li .title a { color:#666;}
+.si-rec-list li .title a:hover { color:#F60;}
+.si-rec-list li .price { margin-left:65px; font-weight:normal; color:#EF392B;}
+
+
+/* 窄屏 */
+.proinfo-side-switch { position:absolute; top:50%; right:0; width:20px; height:80px; padding:5px 2px; border:solid 1px #DDD; border-right:none; margin-top:-46px; line-height:1.4; background:#FFF; text-align:center; color:#666; z-index:5; _margin-right:-1px;
+    -webkit-border-radius:3px 0 0 3px;
+    -moz-border-radius:3px 0 0 3px;
+    -o-border-radius:3px 0 0 3px;
+    border-radius:3px 0 0 3px;
+}
+.proinfo-side-switch:hover { text-decoration:none; color:#666;}
+.root1200 .proinfo-side-switch { display:none;}
+
+
+#satisfaction, .satisfaction { *position:relative; *overflow:hidden;}
+
+
+
+.si-intro { width:198px; padding:0 0 20px; border:solid 1px #FFDC8F; margin:-1px 0 0 -1px;}
+.si-intro-head { position:relative; height:40px; padding:0 15px; background:url(images/repeat.png?v=2015072701) repeat-x 0 -500px;}
+.si-intro-head h4 { position:relative; width:80px; height:22px; padding:18px 8px 0; margin:0 auto; background:url(images/repeat.png?v=2015072701) repeat-x 0 -500px; font:bold 14px/1.5 \5FAE\8F6F\96C5\9ED1;}
+.si-intro-head h4.si-intro-head-zy{ color: #F60;}
+.si-intro-head h4.si-intro-head-fw{ color: #21bc56;}
+.si-intro-head h4.si-intro-head-sj{ color: #2188ef;}
+.si-intro-head h4.si-intro-head-hwg{ width: 126px; color: #635fd0; _width: 132px;}
+.si-intro-head h4.si-intro-head-zx{ color: #333; text-align: center;}
+.si-intro-head i { display:inline-block; width:14px; height:18px; margin-right:5px; background-image:url(images/icons.png?v=2015082801); vertical-align:middle;}
+.si-intro-head h4.si-intro-head-zy i{ background-position:-290px 0;}
+.si-intro-head h4.si-intro-head-fw i{ background-position:-305px 0;}
+.si-intro-head h4.si-intro-head-sj i{ background-position:-320px 0;}
+.si-intro-head h4.si-intro-head-hwg i{ background-position:-324px -20px;}
+.si-intro-head .bg { position:absolute; top:28px; left:15px; width:168px; height:1px; background:#FFDC8F; font-size:0;}
+
+.si-intro-list { padding:0 0 12px; margin:0 15px; border-bottom:solid 1px #EEE;}
+.si-intro-list dl { margin-top:10px;}
+.si-intro-list dt { float:left; color:#999;}
+.si-intro-list dd { margin-left:36px;}
+.si-intro-list dd strong, .si-intro-list dd strong a { color:#666;}
+.si-online { display:block;}
+
+.si-intro-trend { width:168px; margin:12px auto 0; overflow:hidden;}
+.si-intro-trend ul { width:200px;}
+.si-intro-trend li { float:left; width:65px;}
+.si-intro-trend li span { color:#999;}
+.si-intro-trend li .up { color:#F60;}
+.si-intro-trend li .up i { display:inline-block; width:8px; height:9px; margin-left:5px; background:url(images/icons.png?v=2015072101) -270px 0;}
+.si-intro-trend li .down { color:#479313;}
+.si-intro-trend li .down i { display:inline-block; width:8px; height:9px; margin-left:5px; background:url(images/icons.png?v=2015072101) -280px 0;}
+.si-intro-handle, .si-intro-handle2 { height:28px; margin:8px 15px 0;}
+.si-entry { display:block; height:26px; border:solid 1px #FA0; border-radius:3px; background:#FFEFDD; font:normal 12px/26px \5FAE\8F6F\96C5\9ED1; text-align:center; color:#F60; transition:background 0.2s linear 0s;}
+.si-entry:hover { background-color:#FFF6EB; text-decoration:none;}
+.si-intro-handle2 .si-entry { float:left; width:75px;}
+.si-intro-handle2 .si-fav { float:right; width:75px; height:26px; border:solid 1px #DDD; border-radius:3px; background:#FAFAFA; font:normal 12px/26px \5FAE\8F6F\96C5\9ED1; text-align:center; color:#333; transition:background 0.2s linear 0s;}
+.si-intro-handle2 .si-fav:hover { background-color:#FFF; text-decoration:none;}
+.si-entry-disable{ background-color: #FAFAFA; border-color: #DDD; color: #333; cursor: default;}
+.si-entry-disable:hover{ background-color: #FAFAFA; border-color: #DDD; color: #333;}

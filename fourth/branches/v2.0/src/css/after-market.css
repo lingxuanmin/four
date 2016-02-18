@@ -1,0 +1,40 @@
+/* 售后服务 */
+.after-market {width:760px;margin:0 auto; padding-bottom:20px;}
+.root1200 .after-market { padding-bottom:60px;}
+
+.after-market-hd{height:35px;padding-top:40px;border-bottom:1px solid #bbb;}
+.after-market-hd h4{position:relative;float:left;height:35px;margin-bottom:-1px;padding-right:10px;border-bottom:1px solid #f70;font:14px/35px 'microsoft yahei';}
+.after-market-hd h4 .memo { position:absolute; top:0; color:#999; white-space:nowrap;}
+.after-market-hd .opt{float:right;padding-top:8px;}
+.after-market-hd .opt a{color:#2272c8;}
+.after-market-hd .opt a:hover{color:#f70;}
+.after-market-cnt{color:#666;}
+.after-market-cnt .guarantees{padding-top:7px;}
+.after-market-cnt .guarantees p{line-height:2;}
+.after-market-cnt .promise{float:left;width:230px;padding-top:22px;padding-left:33px;}
+.after-market-cnt .promise-first{padding-left:0;}
+.after-market-cnt .promise dt{text-align:center;font:14px 'microsoft yahei';}
+.after-market-cnt .promise dt img{display:block;width:40px;height:40px;margin:0 auto 9px;}
+.after-market-cnt .promise dd{padding-top:12px;line-height:2;}
+.after-market-cnt .return-process{padding:20px 0 0 0;}
+.after-market-cnt .return-process img{display:block;}
+.after-market-cnt .declare{padding-top:12px;}
+.after-market-cnt .declare p{line-height:2;}
+.after-market-cnt .declare a { color:#666;}
+.after-market-cnt .declare a:hover { color:#F60;}
+.after-market-cnt .treatment{float:left;width:360px;padding-top:22px;padding-left:5px;}
+.after-market-cnt .treatment dt{float:left;width:87px;margin-top:10px;}
+.after-market-cnt .treatment dt img{display:block;width:55px;height:55px;}
+.after-market-cnt .treatment dd{float:left;width:272px;}
+.after-market-cnt .treatment dd h5{margin-bottom:3px;font:14px 'microsoft yahei';}
+.after-market-cnt .treatment dd p{line-height:2;}
+.after-market-cnt .treatment-line{display:inline;float:left;width:1px;height:86px;background:url(images/icons.png?v=2015121601) no-repeat -140px 0; margin:30px 10px 0 18px;}
+
+.shfw { width:760px;margin:0 auto; padding:40px 0 50px; line-height:2;}
+.shfw h3 { margin-top:10px; font-size:14px; }
+
+.snpromise { margin-top:30px;}
+.snpromise li { float:left; width:110px; margin:0 40px; font:normal 14px/1.5 \5FAE\8F6F\96C5\9ED1; color:#333; text-align:center; _display:inline;}
+.snpromise li img { display:block; width:50px; height:50px; margin:0 auto;}
+.snpromise li a { vertical-align:middle;}
+.snpromise li .question { display:inline-block; width:12px; height:12px; margin-left:5px; background:url(images/icons.png?v=2015121601) no-repeat -115px -170px; vertical-align:middle;}

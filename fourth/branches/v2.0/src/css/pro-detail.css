@@ -1,0 +1,23 @@
+/* 商品详情 */
+.pro-detail-parameter{border:1px solid #ddd;margin:20px; color:#666; overflow:hidden; *zoom:1;}
+.pro-detail-parameter .hd{height:30px;line-height:30px;border-bottom:1px solid #ddd;background:#f0f0f0;}
+.pro-detail-parameter .hd h4{float:left;padding-left:5px;}
+.pro-detail-parameter .hd .opt{float:right;padding-right:7px;}
+.pro-detail-parameter .hd .opt a{color:#2272c8;}
+.pro-detail-parameter .hd .opt a:hover{color:#f70;}
+.pro-detail-parameter .cnt{margin-right:-50px;padding:20px 0 18px 20px;}
+.pro-detail-parameter .cnt li{float:left;width:310px;height:20px;margin-bottom:4px;overflow:hidden; white-space: nowrap; text-overflow: ellipsis;}
+.pro-detail-pics{ padding:20px; overflow:hidden; _width:658px;}
+.pro-detail-pics img { vertical-align:middle;}
+.root1200 .pro-detail-pics { padding:20px 65px; _width:858px;}
+
+.pro-detail-title { padding:20px; font-size:14px; color:#F70;}
+.root1200 .pro-detail-title { padding:20px 65px;}
+
+.pro-detail-oversea { width:743px; margin:40px auto 40px 20px; text-align:right; font-family:\5b8b\4f53;}
+.root1200 .pro-detail-oversea { margin-left: 65px;}
+.procon-oversea { width:760px; margin:30px auto; font:normal 14px/2 \5FAE\8F6F\96C5\9ED1; color:#666;}
+.procon-oversea dt { height:18px; color:#43418A; overflow:hidden; background:url(images/oversea-detail-title-bg.gif) repeat-x center;}
+.procon-oversea dt span { float:left; height:16px; padding-right:5px; font:bold 16px/1.2 \5FAE\8F6F\96C5\9ED1; background:#FFF;}
+.procon-oversea dd { padding:10px 0 40px;}
+.procon-oversea dd img { display:block; margin:10px 0;}
